@@ -1,0 +1,23 @@
+{
+  "name": "ai-session-getter",
+  "version": "1.0.0",
+  "description": "just a session getter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lester51/ai-session-getter.git"
+  },
+  "author": "HackMeSenpai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lester51/ai-session-getter/issues"
+  },
+  "homepage": "https://github.com/lester51/ai-session-getter#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  }
+}
