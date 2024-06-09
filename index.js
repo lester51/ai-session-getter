@@ -3,8 +3,6 @@ const express = require('axios');
 const app = express();
 const port = 3000;
 
-app.set('json spaces', 4)
-
 let randomStr = (length) => {
 	let result = '';
 	let characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
@@ -16,6 +14,9 @@ let randomStr = (length) => {
 	}
 	return result;
 }
+
+
+app.set('json spaces', 4);
 
 app.get('/', (req, res) => {
     res.send("This API was made by HackMeSenpai.")
@@ -46,3 +47,5 @@ app.get('/session', async function(req, res) {
 app.listen(port, () => {
 	console.log(`Server is listening on port ${port}`)
 })
+
+module.exports = app;
